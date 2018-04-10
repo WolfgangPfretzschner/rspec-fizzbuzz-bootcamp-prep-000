@@ -4,6 +4,8 @@ def fizzbuzz(num)
   elsif num % 5 == 0 
     puts "Buzz"
   elsif num % 15 == 0 
-    puts 
+    puts "FizzBuzz"
+  else
+    return nil
   end
 end
