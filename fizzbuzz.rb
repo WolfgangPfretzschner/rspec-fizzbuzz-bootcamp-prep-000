@@ -1,7 +1,9 @@
 def fizzbuzz(num)
   if num % 3 == 0 
     puts "Fizz"
-  elseif
-    
+  elsif num % 5 == 0 
+    puts "Buzz"
+  elsif num % 15 == 0 
+    puts 
   end
 end
